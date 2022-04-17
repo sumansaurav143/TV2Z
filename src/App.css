@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  overflow-y: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: #091422;
+  color: #FFFFFF;
+}
+
+p{
+  font-size: 14px;
+  font-weight: lighter;
+}
+span{
+  font-weight:500;
+}
+
+.header_area{
+  display: flex;
+  margin-top:15px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
+
+.logo{
+  margin-left: 20px;
+}
+
+.login_signup{
+  margin-right: 20px;
+}
+
+#login{
+  background-color: transparent;
+  border: none;
+  width:90px;
+  height:40px;
+  color:white;
+  font-size: large;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login_area{
+  height:85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.message,.forget_area,.terms,.Login_Button,.newuser_area{
+  margin:15px;
+}
+
+.Input_area{
+ display: flex;
+ margin: 10px;
+}
+
+.Email,.Password{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  width:250px;
+  height: 35px;
+  background-color: #FFFFFF;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+input{
+  border:none;
+  font-size: 16px;
+  outline: none;
+  width: 240px;
+}
+#EyeBTN{
+  display: flex;
+  background-color: white;
+  border: none;
+}
+#eye_icon{
+  background-color: white;
+  border: none;
+}
+
+#valid{
+  border:1px solid greenyellow;
+  box-shadow: 1px 1px 10px greenyellow;
+}
+#invalid{
+  border: 1px solid #fe2313;
+  box-shadow: 1px 1px 10px red;
+}
+
+#pass{
+  width:222px;
+}
+.password_info{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(14, 1, 1);
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+}
+
+.error{
+  color: #fe2313;
+}
+.correct{
+  color:green;
+}
+
+#signin_btn{
+  background-image: linear-gradient(#03AAD3 ,#14282A );
+  border: none;
+  height:35px;
+  width:80px;
+  color:#FFFFFF;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer_area{
+  height:48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #101827;
+  color: #4D4D4D;
+}
+
+.Register_input{
+  padding-left: 10px;
+  border-radius: 5px;
+  height: 30px;
+  margin: 2px;
+}
+
+.new_user{
+  cursor: pointer;
+}
+
+.movies{
+  padding-top: 10px;
+  min-height: 100%;
+  min-width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.category{
+  color: white;
+  height: 180px;
+  margin: 5px;
+}
+
+.User_img_name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#profile_pic{
+  width: 30px;
+  height:30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.list_name{
+  margin-left: 12px;
+}
+.list_items{
+  display: flex;
+  max-width: auto;
+}
+.list_content{
+  height:130px;
+  width: 250px;
+  border: 2px solid #03AAD3;
+  margin:5px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 1px 1px 10px #091422;
+}
+.img{
+  height:150px;
+  width: 300px;
+}
+
+.list_content:hover{
+  box-shadow: 1px 1px 10px rgb(233, 1, 175);
+}
+
+.Pop_Up{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0914226d;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+.Popup{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-style: bold;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+#okBtn{
+  border-radius: 10px;
+  border: groove #01132d;
+  margin-top: 20px;
+  height: 35px;
+  width: 80px;
+}
+.dropbtn{
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.MenuTab{
+  display: flex;
+  margin-left: 30px;
+}
+.menu{
+  font-size: 18px;
+  margin: 12px;
+}
+.menu:hover{
+  color: aqua;
+  cursor: pointer;
+}
+.user_datas{
+  display: flex;
+  width: auto;
+}
+
+.search{
+  margin-right: 15px;
+}
+.dropdown{
+  margin-left: 10px;
+}
+
+.drop_items{
+  position: absolute;
+  z-index: 1;
+  border: 1px solid white;
+}
+
+#myDropdown{
+  display: none;
+}
+.dropdown-content{
+  
+  margin-top: 10px;
+  background-color: #01132d;
+  width: 100px;
+  margin: 2px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+
+}
+.Dlog_out{
+  border: none;
+  width: 80px;
+  color: white;
+  background-color: transparent;
+  font-weight: 600;
+  cursor: pointer;
+  z-index: 1;
+}
+.Dlog_out:hover{
+  box-shadow: 1px 1px 20px aqua;
+}
+
+@media only screen and (max-width: 600px) {
+  .Input_area{
+    flex-direction: column;
+   }
+
+   .list_items{
+     justify-content: center;
+     align-items: center;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .list_content{
+    height:140px;
+    width: 300px;
+  }
+
+  .MenuTab{
+    display: none;
+  }
+
+  #myDropdown{
+    display: inline-flex;
+  }
+  .list_name{
+    margin-left: 20px;
+  }
+}
