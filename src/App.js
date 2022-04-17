@@ -1,6 +1,6 @@
 import './App.css';
 import logo from './logo.svg';
-import { useEffect, useState } from 'react'
+import React,{ useEffect, useState } from 'react'
 import Login from './Components/Login';
 import Signup from './Components/Signup';
 import Home from './Components/Home';
@@ -126,7 +126,7 @@ function App() {
 
       <header className="header_area">
         <div className="logo">
-          <img src={logo}></img>
+          <img src={logo} alt=""></img>
         </div>
         {
           Homepage ?
@@ -139,12 +139,12 @@ function App() {
               </div>
              
               <div className='user_datas'>
-              <img className='search' src={Search}></img>
-              <img id="profile_pic" src="https://st2.depositphotos.com/1104517/11965/v/950/depositphotos_119659092-stock-illustration-male-avatar-profile-picture-vector.jpg"></img>
+              <img className='search' src={Search} alt=""></img>
+              <img id="profile_pic" src="https://st2.depositphotos.com/1104517/11965/v/950/depositphotos_119659092-stock-illustration-male-avatar-profile-picture-vector.jpg" alt=""></img>
               <h4>Hi, {currData.name}</h4>
               <div className="dropdown">
                 <button onClick={() => SetDropdown(!Dropdown)} className="dropbtn">
-                  <img src={drop}></img>
+                  <img src={drop} alt=""></img>
                 </button>
                
                   {Dropdown ? 

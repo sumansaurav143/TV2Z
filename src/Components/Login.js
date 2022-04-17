@@ -70,7 +70,7 @@ export default function Login(props) {
                            PasswordChecker(e.target.value)
                         }}></input>
                     <button id="EyeBTN" onClick={() => Setview_pass(!view_pass)}>
-                        <img id="eye_icon" src={view_pass ? Eyeon : Eyeoff}></img>
+                        <img id="eye_icon" src={view_pass ? Eyeon : Eyeoff} alt=""></img>
                     </button>
                 </div>
 
