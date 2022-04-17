@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css';
 
-export default function (props) {
+function Popup(props) {
 
     function closerpoper(){
         props.setPoper(false)
@@ -15,3 +15,4 @@ export default function (props) {
         </div>
     )
 }
+export default Popup;
