@@ -25,19 +25,19 @@ export default function Home() {
           </div>
           <div className='list_items'>
               <div className='list_content'>
-                <img className='img' src={pic1}></img>
+                <img className='img' src={pic1} alt=""></img>
               </div>
               <div className='list_content'>
-                <img className='img' src={pic2}></img>
+                <img className='img' src={pic2} alt=""></img>
               </div>
               <div className='list_content'>
-                <img className='img' src={pic12}></img>
+                <img className='img' src={pic12} alt=""></img>
               </div>
               <div className='list_content'>
-                <img className='img' src={pic4}></img>
+                <img className='img' src={pic4} alt=""></img>
               </div>
               <div className='list_content'>
-                <img className='img' src={pic5}></img>
+                <img className='img' src={pic5} alt=""></img>
               </div>
           </div>
         </div>
@@ -47,19 +47,19 @@ export default function Home() {
           </div>
           <div className='list_items'>
               <div className='list_content'>
-                <img className='img' src={pic6}></img>
+                <img className='img' src={pic6} alt=""></img>
               </div>
               <div className='list_content'>
-                <img className='img' src={pic9}></img>
+                <img className='img' src={pic9} alt=""></img>
               </div>
               <div className='list_content'>
-                <img className='img' src={pic8}></img>
+                <img className='img' src={pic8} alt=""></img>
               </div>
               <div className='list_content'>
-                <img className='img' src={pic1}></img>
+                <img className='img' src={pic1} alt=""></img>
               </div>
               <div className='list_content'>
-                <img className='img' src={pic10}></img>
+                <img className='img' src={pic10} alt=""></img>
               </div>
           </div>
         </div>
@@ -69,19 +69,19 @@ export default function Home() {
           </div>
           <div className='list_items'>
               <div className='list_content'>
-                <img className='img' src={pic11}></img>
+                <img className='img' src={pic11} alt=""></img>
               </div>
               <div className='list_content'>
-                <img className='img' src={pic5}></img>
+                <img className='img' src={pic5} alt=""></img>
               </div>
               <div className='list_content'>
-                <img className='img' src={pic10}></img>
+                <img className='img' src={pic10} alt=""></img>
               </div>
               <div className='list_content'>
-                <img className='img' src={pic2}></img>
+                <img className='img' src={pic2} alt=""></img>
               </div>
               <div className='list_content'>
-                <img className='img' src={pic9}></img>
+                <img className='img' src={pic9} alt=""></img>
               </div>
           </div>
         </div>
@@ -90,19 +90,19 @@ export default function Home() {
             <h4 className='list_name'>Adventure</h4>
             <div className='list_items'>
               <div className='list_content'>
-                <img className='img' src={pic10}></img>
+                <img className='img' src={pic10} alt=""></img>
               </div>
               <div className='list_content'>
-                <img className='img' src={pic2}></img>
+                <img className='img' src={pic2} alt=""></img>
               </div>
               <div className='list_content'>
-                <img className='img' src={pic12}></img>
+                <img className='img' src={pic12} alt=""></img>
               </div>
               <div className='list_content'>
-                <img className='img' src={pic1}></img>
+                <img className='img' src={pic1} alt=""></img>
               </div>
               <div className='list_content'>
-                <img className='img' src={pic11}></img>
+                <img className='img' src={pic11} alt=""></img>
               </div>
           </div>
           </div>
