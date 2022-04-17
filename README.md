@@ -12,7 +12,8 @@
  1. Email and Password Input with validation using Regex.
  2. It can directly use local storage data to validate the user.
  3. If we enter wrong input it will show popoup related to input.
- 5. SignUp Page is linked with "SignUp Button";
+ 4. If User is new you have to Register first.
+ 5. SignUp Page is linked with "SignUp Button".
  
  # In SignUp Page:-
  1. There is 4 input related to the User Input & Store data in Local Storage.
@@ -21,5 +22,5 @@
 
  # In Home Page(2nd Page):-
  1. It should have Menu tab, search icon , user details from local storage
-    and a dropdown menue with Log Out feature.
+    and a dropdown menu with Log Out feature.
  2. Responsive UI.
