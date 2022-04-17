@@ -6,6 +6,10 @@
  
  [ https://sumansaurav143.github.io/TV2Z/ ]
  
+ <br>
+ --------Teck Stacks--------
+  React JS, HTML , CSS , Javascript.
+ 
  ## Login Page, SignUp Page, Home Page & PopUp ##
 
  # In Login Page:-
